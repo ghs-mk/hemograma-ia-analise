@@ -1,0 +1,33 @@
+
+═══════════════════════════════════════════════════════════════════════
+RESUMO DA LIMPEZA DE DADOS - CBC DATASET
+═══════════════════════════════════════════════════════════════════════
+
+DATASET ORIGINAL:
+   • Linhas: 500
+   • Colunas: 21
+
+AÇÕES REALIZADAS:
+   1. Remoção de valores negativos
+   2. Remoção de valores biologicamente impossíveis
+   3. Conversão de unidades (WBC e PLT: 10³/µL → células/µL)
+   4. Aplicação de limites biológicos plausíveis
+   5. Winsorização de outliers (percentis 1% e 99%)
+
+DATASET FINAL:
+   • Linhas: 424
+   • Colunas: 21
+   • Taxa de retenção: 84.8%
+   • Linhas removidas: 76 (15.2%)
+
+VALIDAÇÕES:
+   • Valores negativos: 0
+   • Valores impossíveis: 0
+   • Valores faltantes: 0
+   • Unidades corretas: ✓
+
+ARQUIVO SALVO:
+   • CSV: data/processed/cbc_limpo.csv
+   • Excel: data/processed/cbc_limpo.xlsx
+
+═══════════════════════════════════════════════════════════════════════

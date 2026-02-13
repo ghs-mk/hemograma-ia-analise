@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Dados (não versionar datasets grandes)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.xls
+!data/raw/.gitkeep
+
+# Modelos treinados
+*.pkl
+*.joblib
+*.h5
+
+# Relatórios temporários
+*.log
+*.tmp
+
+# Sistema
+.DS_Store
+Thumbs.db

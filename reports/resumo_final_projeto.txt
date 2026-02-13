@@ -1,0 +1,46 @@
+
+═══════════════════════════════════════════════════════════════════════
+RESUMO FINAL DO PROJETO - ANÁLISE INTELIGENTE DE HEMOGRAMA
+═══════════════════════════════════════════════════════════════════════
+
+DATASET:
+   • Total de registros: 424
+   • Features utilizadas: 8
+   • Classes: Normal (24) | Alterado (400)
+
+PRÉ-PROCESSAMENTO:
+   • Remoção de valores impossíveis
+   • Conversão de unidades (WBC, PLT)
+   • Winsorização de outliers
+   • Padronização (StandardScaler)
+
+MODELO:
+   • Algoritmo: Random Forest Classifier
+   • N° de árvores: 100
+   • Profundidade máxima: 10
+   • Balanceamento de classes: Sim
+
+PERFORMANCE (Conjunto de Teste):
+   • Acurácia: 100.00%
+   • Precision: 100.00%
+   • Recall: 100.00%
+   • F1-Score: 100.00%
+   • ROC-AUC: 100.00%
+
+TOP 3 FEATURES MAIS IMPORTANTES:
+   1. MCHC: 0.219
+   2. MCH: 0.210
+   3. PLT: 0.183
+
+VALIDAÇÃO CRUZADA:
+   • F1-Score médio: 99.23% (±0.49%)
+
+ARQUIVOS GERADOS:
+   • data/processed/cbc_limpo.csv
+   • data/processed/cbc_com_anomalias.csv
+   • data/processed/cbc_com_clusters.csv
+   • models/rf_classifier.pkl
+   • models/scaler.pkl
+   • reports/figures/ (múltiplas visualizações)
+
+═══════════════════════════════════════════════════════════════════════

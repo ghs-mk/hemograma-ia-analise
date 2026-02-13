@@ -151,7 +151,7 @@ Execute na ordem: 00_limpeza_dados.ipynb → 01_eda.ipynb → 02_anomalias.ipynb
 
 ## 📊 Dataset
 
-**Fonte:** "CBC Dataset" no Kaggle (https://www.kaggle.com/datasets/ahmedhyb/cbc-dataset). Contém ~500 registros anonimizados, com características sintéticas ou simuladas, amplamente utilizados para fins educacionais.
+**Fonte:** "CBC Dataset" no Kaggle (https://www.kaggle.com/datasets/ahmedelsayedtaha/complete-blood-count-cbc-test). Contém ~500 registros anonimizados, com características sintéticas ou simuladas, amplamente utilizados para fins educacionais.
 
 **Variáveis principais (Explicações Clínicas):**
 - **Hemoglobina (HGB, g/dL)**: Proteína nos glóbulos vermelhos que transporta oxigênio. Valores baixos podem indicar anemia (ex.: deficiência de ferro ou perda sanguínea). Fonte: Mayo Clinic - "Complete blood count (CBC)" (https://www.mayoclinic.org/tests-procedures/complete-blood-count/about/pac-20384919).
@@ -256,7 +256,7 @@ Gustavo Henrique da Silva
 
 ## 📄 Licença
 
-Este projeto está sob licença MIT - veja o arquivo LICENSE para detalhes.
+Este projeto está sob licença MIT.
 
 ## 🙏 Agradecimentos
 

@@ -139,7 +139,7 @@ pip install -r requirements.txt
 ```
 
 ### 4. Baixar o dataset
-- Acesse: https://www.kaggle.com/datasets/ahmedhyb/cbc-dataset
+- Acesse: https://www.kaggle.com/datasets/ahmedelsayedtaha/complete-blood-count-cbc-test
 - Baixe o arquivo principal e coloque em `data/raw/`.
 
 ### 5. Executar os notebooks
